@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/scapy_packet_analyser/__init__.py
+src/scapy_packet_analyser/main.py
+src/scapy_packet_analyser.egg-info/PKG-INFO
+src/scapy_packet_analyser.egg-info/SOURCES.txt
+src/scapy_packet_analyser.egg-info/dependency_links.txt
+src/scapy_packet_analyser.egg-info/entry_points.txt
+src/scapy_packet_analyser.egg-info/requires.txt
+src/scapy_packet_analyser.egg-info/top_level.txt
+tests/test_main.py

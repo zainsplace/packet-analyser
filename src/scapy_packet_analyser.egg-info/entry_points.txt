@@ -1,2 +1,0 @@
-[console_scripts]
-scapy-packet-analyser = scapy_packet_analyser.main:main

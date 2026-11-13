@@ -12,6 +12,8 @@ A lightweight Python project for capturing and summarizing network traffic with 
 
 ## Quick start
 
+Windows (PowerShell):
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -20,4 +22,18 @@ pip install -e .
 python -m scapy_packet_analyser --count 10 --protocol tcp --protocol udp
 ```
 
-> On Windows, you may need to run the terminal with elevated privileges for packet capture access.
+macOS / Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
+sudo .venv/bin/python -m scapy_packet_analyser --count 10 --protocol tcp --protocol udp
+```
+
+> Packet capture needs elevated privileges: run the terminal as Administrator on Windows (with Npcap installed), or use `sudo` on macOS and Linux.
+
+## Disclaimer
+
+Only capture traffic on networks you own or have explicit permission to monitor.
